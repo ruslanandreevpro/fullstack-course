@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d795cb73-39d8-4ea9-99e2-9f2b2ff73132" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/app/shared/classes/token.interceptor.ts" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/app/shared/classes/token.interceptor.ts" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -16,29 +16,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/package.json">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="15" column="109" selection-start-line="15" selection-start-column="109" selection-end-line="15" selection-end-column="109" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/client/package.json">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/.gitignore">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="51">
-              <caret line="14" column="42" selection-start-line="14" selection-start-column="42" selection-end-line="14" selection-end-column="42" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/client/src/app/shared/classes/token.interceptor.ts">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
-              <caret line="4" column="42" selection-start-line="4" selection-start-column="42" selection-end-line="4" selection-end-column="42" />
+              <caret line="3" column="5" lean-forward="true" selection-start-line="3" selection-start-column="5" selection-end-line="3" selection-end-column="5" />
             </state>
           </provider>
         </entry>
@@ -105,10 +87,10 @@
         <option value="$PROJECT_DIR$/config/keys.dev.js" />
         <option value="$PROJECT_DIR$/config/keys.prod.js" />
         <option value="$PROJECT_DIR$/config/keys.js" />
-        <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/package.json" />
         <option value="$PROJECT_DIR$/client/package.json" />
         <option value="$PROJECT_DIR$/client/src/app/shared/classes/token.interceptor.ts" />
+        <option value="$PROJECT_DIR$/.gitignore" />
       </list>
     </option>
   </component>
@@ -143,41 +125,6 @@
             <path>
               <item name="fullstack-course" type="b2602c69:ProjectViewProjectNode" />
               <item name="fullstack-course" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="fullstack-course" type="b2602c69:ProjectViewProjectNode" />
-              <item name="fullstack-course" type="462c0819:PsiDirectoryNode" />
-              <item name="client" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="fullstack-course" type="b2602c69:ProjectViewProjectNode" />
-              <item name="fullstack-course" type="462c0819:PsiDirectoryNode" />
-              <item name="client" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="fullstack-course" type="b2602c69:ProjectViewProjectNode" />
-              <item name="fullstack-course" type="462c0819:PsiDirectoryNode" />
-              <item name="client" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="fullstack-course" type="b2602c69:ProjectViewProjectNode" />
-              <item name="fullstack-course" type="462c0819:PsiDirectoryNode" />
-              <item name="client" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="shared" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="fullstack-course" type="b2602c69:ProjectViewProjectNode" />
-              <item name="fullstack-course" type="462c0819:PsiDirectoryNode" />
-              <item name="client" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="shared" type="462c0819:PsiDirectoryNode" />
-              <item name="classes" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -236,12 +183,12 @@
       <workItem from="1554413077405" duration="113000" />
       <workItem from="1555192066031" duration="92072000" />
       <workItem from="1556119531004" duration="3376000" />
-      <workItem from="1556123530315" duration="3784000" />
+      <workItem from="1556123530315" duration="4654000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="99345000" />
+    <option name="totallyTimeSpent" value="100215000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="260" y="55" width="1400" height="1000" extended-state="0" />
@@ -643,13 +590,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="10" selection-start-line="2" selection-start-column="10" selection-end-line="2" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/config/keys.prod.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="34">
@@ -664,10 +604,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/package.json">
+    <entry file="file://$PROJECT_DIR$/client/src/app/shared/classes/token.interceptor.ts">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="15" column="109" selection-start-line="15" selection-start-column="109" selection-end-line="15" selection-end-column="109" />
+        <state relative-caret-position="-266">
+          <caret line="4" column="42" selection-start-line="4" selection-start-column="42" selection-end-line="4" selection-end-column="42" />
         </state>
       </provider>
     </entry>
@@ -678,10 +618,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/client/src/app/shared/classes/token.interceptor.ts">
+    <entry file="file://$PROJECT_DIR$/package.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="42" selection-start-line="4" selection-start-column="42" selection-end-line="4" selection-end-column="42" />
+        <state relative-caret-position="255">
+          <caret line="15" column="109" selection-start-line="15" selection-start-column="109" selection-end-line="15" selection-end-column="109" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="5" lean-forward="true" selection-start-line="3" selection-start-column="5" selection-end-line="3" selection-end-column="5" />
         </state>
       </provider>
     </entry>
