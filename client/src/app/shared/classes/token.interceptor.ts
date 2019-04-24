@@ -3,7 +3,6 @@ import {AuthService} from "../services/auth.service";
 import {HttpErrorResponse, HttpEvent, HttpHandler, HttpInterceptor, HttpRequest} from "@angular/common/http";
 import {Observable, throwError} from "rxjs";
 import {catchError} from "rxjs/operators";
-import {any} from "codelyzer/util/function";
 import {Router} from "@angular/router";
 
 @Injectable()
