@@ -14,6 +14,10 @@ export interface MaterialDatepicker extends MaterialInstance {
 
 export class MaterialServie {
 
+  static initMobileMenu(ref: ElementRef) {
+    M.Sidenav.init(ref.nativeElement)
+  }
+
   static toast(message: string) {
     M.toast({html: message})
   }

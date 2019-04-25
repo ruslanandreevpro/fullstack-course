@@ -1,7 +1,8 @@
 <nav>
   <div class="nav-wrapper grey darken-1">
     <a routerLink="/" class="brand-logo">RADS.CRM</a>
-    <ul id="nav-mobile" class="right hide-on-med-and-down">
+    <a data-target="sidenav" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+    <ul class="right hide-on-med-and-down">
       <li routerLinkActive="active">
         <a routerLink="/login">Вход</a>
       </li>
@@ -11,6 +12,15 @@
     </ul>
   </div>
 </nav>
+
+<ul id="sidenav" class="sidenav" #mobileMenu>
+  <li routerLinkActive="active">
+    <a routerLink="/login" class="sidenav-close">Вход</a>
+  </li>
+  <li routerLinkActive="active">
+    <a routerLink="/register" class="sidenav-close">Регистрация</a>
+  </li>
+</ul>
 
 <div class="auth-block">
   <router-outlet></router-outlet>
