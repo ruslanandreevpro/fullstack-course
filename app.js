@@ -13,16 +13,7 @@ const keys = require('./config/keys')
 const app = express();
 const path = require('path')
 
-// const MongoClient = require('mongodb').MongoClient;
-// const uri = keys.mongoURI;
-// const client = new MongoClient(uri, { useNewUrlParser: true });
-// client.connect(err => {
-//     const collection = client.db("fullstack").collection("data");
-//     // perform actions on the collection object
-//     client.close();
-// });
-
-mongoose.connect(keys.mongoURI)
+mongoose.connect(keys.mongoURI, {useNewUrlParser: true})
     .then(() => console.log('MongoDB connected'))
     .catch(error => console.log(error))
 

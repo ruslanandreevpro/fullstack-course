@@ -14,6 +14,7 @@ export class LoginPageComponent implements OnInit, OnDestroy {
 
   form: FormGroup
   aSub: Subscription
+  loading = false
 
   constructor(private auth: AuthService, private router: Router, private route: ActivatedRoute) { }
 
@@ -44,6 +45,7 @@ export class LoginPageComponent implements OnInit, OnDestroy {
 
   onSubmit() {
     this.form.disable()
+    this.loading = true
     this.aSub = this.auth.login(this.form.value).subscribe(
       () => this.router.navigate(['/overview']),
       error => {
