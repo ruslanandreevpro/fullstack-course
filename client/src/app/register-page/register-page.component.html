@@ -19,6 +19,9 @@
     </div>
   </div>
   <div class="card-action">
-    <button type="submit" class="modal-action btn waves-effect" [disabled]="form.invalid || form.disabled">Создать</button>
+    <button type="submit" class="modal-action btn waves-effect" [disabled]="form.invalid || form.disabled" *ngIf="!loading; else loader">Создать</button>
   </div>
 </form>
+<ng-template #loader>
+  <app-loader></app-loader>
+</ng-template>

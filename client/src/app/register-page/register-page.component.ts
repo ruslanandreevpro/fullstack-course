@@ -14,6 +14,7 @@ export class RegisterPageComponent implements OnInit, OnDestroy {
 
   form: FormGroup
   aSub: Subscription
+  loading = false
 
   constructor(private auth: AuthService, private router: Router) { }
 
@@ -32,6 +33,7 @@ export class RegisterPageComponent implements OnInit, OnDestroy {
 
   onSubmit() {
     this.form.disable()
+    this.loading = true
     this.aSub = this.auth.register(this.form.value).subscribe(
       () => {
         this.router.navigate(['/login'], {
@@ -42,6 +44,7 @@ export class RegisterPageComponent implements OnInit, OnDestroy {
       },
       error => {
         MaterialServie.toast(error.error.message)
+        this.loading = false
         this.form.enable()
       }
     )
